@@ -1,0 +1,200 @@
+/* ==========================================================================
+   @search
+   ========================================================================== */
+
+.search-form {
+	margin-bottom: 20px;
+}
+
+	.search-form__field {
+		align-items: center;
+		background: #fff;
+		border: none;
+		color: #808080;
+		font-size: 15px;
+		height: 50px;
+		justify-content: center;
+		margin-right: 1px;
+		max-width: 500px;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	.search-form__button {
+		background-image: linear-gradient(101deg,#50a0f0,#5c89de);
+		border: none;
+		height: 50px;
+		width: 70px;
+	}
+
+	.search-form__button:hover {
+		background: linear-gradient(-101deg,#50a0f0,#5c89de);
+	}
+
+	.search-form__button .icon {
+		height: 25px;
+		margin: 0 auto;
+		width: 27px;
+	}
+
+	.download-form__field {
+		align-items: center;
+		background: #fff;
+		border: none;
+		color: #808080;
+		font-size: 15px;
+		font-size: 15px;
+		height: 40px;
+		justify-content: center;
+		margin-right: 10px;
+		max-width: 320px;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	.download-form__button {
+		background: transparent;
+		border: 2px solid #9d9d9d;
+		color: #9e9d9d;
+		height: 40px;
+		width: 120px;
+	}
+
+	.download-form__button:hover {
+		background: #9d9d9d;
+		color: #fff;
+	}
+
+.phones {
+	height: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: -70px;
+	width: 322px;
+}
+
+	.phones__device {
+		height: 325px;
+		position: absolute;
+	}
+
+.phones--android {
+	background: url(../assets/device-android.png) no-repeat center top;
+	left: 0;
+	width: 179px;
+}
+
+.phones--ios {
+	background: url(../assets/device-ios.png) no-repeat center top;
+	margin-top: 14px;
+	right: 0;
+	width: 167px;
+}
+
+.download {
+	margin: 0 auto;
+	max-width: 430px;
+	width: 100%;
+}
+
+.download .stamp {
+	display: block;
+	height: 32px;
+	margin-bottom: 18px;
+	width: 232px;
+}
+
+	.download .stamp__image {
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
+.download .title {
+	color: #505050;
+	font-size: 30px;
+	margin-bottom: 18px;
+}
+
+.download .text {
+	color: #505050;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+.content {
+	padding: 0 25px;
+}
+
+.content .icon {
+	margin: 0 auto 20px;
+	height: 150px;
+}
+
+.content .subtitle {
+	color: #505050;
+	font-size: 28px;
+	margin-bottom: 20px;
+	min-height: 35px;
+}
+
+.content .text {
+	color: #a0a0a0;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.content .text .strong {
+	color: #505050;
+}
+
+.media-magazine {
+	width: 100%;
+}
+
+	.media-magazine__list {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+/* ==========================================================================
+   @media-querie
+   ========================================================================== */
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.download .stamp {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.download {
+		padding: 0 10px;
+	}
+
+	.download .stamp {
+		display: none;
+	}
+
+	.download .title {
+		font-size: 20px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.download .text {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.download-form__button {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 480px) {}

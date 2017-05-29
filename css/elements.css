@@ -1,0 +1,89 @@
+/* ==========================================================================
+   @brand
+   ========================================================================== */
+
+.brand {
+	background: url(../assets/brand.svg) no-repeat center center;
+	display: block;
+	text-indent: -9999px;
+}
+
+/* ==========================================================================
+   @buttons
+   ========================================================================== */
+
+.button {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   @icons
+   ========================================================================== */
+
+.icon {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+}
+
+.icon--admin {
+	background-image: url(../assets/icon-admin.svg);
+}
+
+.icon--favorite {
+	background-image: url(../assets/icon-favorite.svg);
+}
+
+.icon--search {
+	background-image: url(../assets/icon-search.svg);
+}
+
+/* ==========================================================================
+   @media-queries
+   ========================================================================== */
+
+@media (min-width: 1200px) {
+
+}
+.notification {
+	display: block;
+	border-radius: 50%;
+}
+
+/* ==========================================================================
+   @strong
+   ========================================================================== */
+
+.strong {
+	font-weight: 700;
+ }
+
+/* ==========================================================================
+   @form
+   ========================================================================== */
+
+ .form {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+/* ==========================================================================
+   @bullet
+   ========================================================================== */
+
+ .bullet {
+ 	display: block;
+ }
