@@ -1,4 +1,4 @@
-# Teste Responsivo
+# Responsive Test Front-End
 
 ## HTML
 Layout escalável e modulado seguindo o conceito de componentes
